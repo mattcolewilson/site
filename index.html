@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+::selection {color: white; background: #313292; }
+::-moz-selection {color: #f1efed; background: #313292; }
+    
+.avatar {float: left;} 
+
+a {color: black;}
+a:hover {color: #D9B6F8;}
+
+body {
+    background-color: ghostwhite;
+    margin-left: 125px;
+    max-width: 1000px;
+    }
+    
+h1 {
+    font-family: 'arial black';
+    font-size: 60px;
+    padding-left: 130px;
+    padding-bottom: 10px;
+    }
+
+.navigation {
+    font-family: 'Inconsolata', monospace;
+    font-weight: normal;
+    font-size: 30px;
+    position: fixed;
+    margin: 180px 0 0 900px;
+    -ms-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    }
+
+ul {    
+    list-style-type: none;
+    display: block;
+    padding-left: 350px;
+    width: 425px;
+    margin: -90px;
+    }
+
+li {
+    float: left;
+    padding-right: 30px;
+    }
+
+h2 {
+    font-family: 'arial black';
+    font-size: 40px;
+    }
+
+h3 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1000px;
+    }
+    
+p {
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1000px;
+    }
+
+footer {
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    text-align: center;
+    max-width: 1200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    }
+
+hr {border: 1px solid black;}
+
+</style>
+
+
+
+<title>mattcolewilson 🍩 home</title>
+
+</head>
+
+
+<!-- BODY SECTION--> 
+
+<body>
+<header>
+<img class="avatar" src="images/mwlogo.svg">
+    
+<h1>mattcolewilson</h1>
+
+<div class="navigation">
+    mattcolewilson<br>graphic design<br>kansas city
+<ul>
+    <li><a href="/">home</a></li>
+    <li><a href="/">about</a></li>
+    <li><a href="/">shop</a></li>
+    <li><a href="/">contact</a></li>
+</ul>
+</div>
+    
+
+</header>
+
+<!-- SLIDESHOW START --> 
+    
+<div class="w3-content w3-section" style="max-width:1000px">
+    <img class="mySlides" src="/images/geizer.jpg" style="width:1000px">
+    <img class="mySlides" src="/images/doomed.jpg" style="width:1000px">
+    <img class="mySlides" src="/images/bendpatch.jpg" style="width:1000px">
+    <img class="mySlides" src="/images/edc.jpg" style="width:1000px">
+    <img class="mySlides" src="/images/icons.jpg" style="width:1000px">
+    <img class="mySlides" src="/images/gbc.jpg" style="width:1000px">
+    <img class="mySlides" src="/images/cigs.jpg" style="width:1000px">
+    <img class="mySlides" src="/images/kckoozie.jpg" style="width:1000px">
+    <img class="mySlides" src="/images/vhs.jpg" style="width:1000px">
+    <img class="mySlides" src="/images/midwest.jpg" style="width:1000px">
+    <img class="mySlides" src="/images/nilescribes.jpg" style="width:1000px">
+    <img class="mySlides" src="/images/podriq.jpg" style="width:1000px">
+    <img class="mySlides" src="/images/gameover.gif" style="width:1000px">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+    
+<!-- SLIDESHOW END --> 
+
+<h2>select projects</h2>
+<h3> 
+<a href="url">geizer</a> - a free horror-inspired font<br><br>
+<a href="url">kansas city × beer</a> - drinkware for locals<br><br>
+<a href="url">bend outdoors</a> - logo design<br><br></h3>
+
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>
+
+</p>
+
+<hr>
+
+<footer>
+ 🎃 thanks for visiting! &lt3 @mattcolewilson ／ copyright © 2019 *please don’t steal!*
+</footer>
+   
+    
+</body>
+</html>
