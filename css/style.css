@@ -14,6 +14,7 @@ background: ghostwhite;
     top: 0;
     background-color: ghostwhite; 
     width: 800px;
+    max-width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
     border-bottom: 1px solid black;
@@ -62,6 +63,7 @@ a:hover {
 }
 
 img {padding-top:10px;
+     max-width: 100%;
 }
 
 * {
