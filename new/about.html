@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;600;700&display=swap" rel="stylesheet">
+<title>mattcolewilson → about</title>
+    
+<style>
+
+.drag{
+position:relative;
+z-index: 100;
+}
+.drag:hover{
+cursor:move;
+}
+
+</style>
+
+<script type="text/javascript">
+    
+  /***********************************************
+  * Drag and Drop Script: Â© Dynamic Drive (http://www.dynamicdrive.com)
+  * This notice MUST stay intact for legal use
+  * Visit http://www.dynamicdrive.com/ for this script and 100s more.
+  ***********************************************/
+  
+  var dragobject={
+  z: 0, x: 0, y: 0, offsetx : null, offsety : null, targetobj : null, dragapproved : 0,
+  initialize:function(){
+  document.onmousedown=this.drag
+  document.onmouseup=function(){this.dragapproved=0}
+  },
+  drag:function(e){
+  var evtobj=window.event? window.event : e
+  this.targetobj=window.event? event.srcElement : e.target
+  if (this.targetobj.className=="drag"){
+  this.dragapproved=1
+  if (isNaN(parseInt(this.targetobj.style.left))){this.targetobj.style.left=0}
+  if (isNaN(parseInt(this.targetobj.style.top))){this.targetobj.style.top=0}
+  this.offsetx=parseInt(this.targetobj.style.left)
+  this.offsety=parseInt(this.targetobj.style.top)
+  this.x=evtobj.clientX
+  this.y=evtobj.clientY
+  if (evtobj.preventDefault)
+  evtobj.preventDefault()
+  document.onmousemove=dragobject.moveit
+  }
+  },
+  moveit:function(e){
+  var evtobj=window.event? window.event : e
+  if (this.dragapproved==1){
+  this.targetobj.style.left=this.offsetx+evtobj.clientX-this.x+"px"
+  this.targetobj.style.top=this.offsety+evtobj.clientY-this.y+"px"
+  return false
+  }
+  }
+  }
+  
+  dragobject.initialize()
+
+</script>
+</head>
+
+<html>
+    
+<body>
+    
+<div class="flex-container">
+<div class="flex-left">
+
+<h1>matt cole wilson<br>
+<span style="color:white">graphic design</span></h1>
+
+<hr>
+
+<h2>site navigation</h2>
+
+<nav>
+<p>
+<a href="index.html"><span style="letter-spacing: 2pt; font-weight: 600">
+01. HOME</span> — selected works →</a><br>
+    
+<span style="letter-spacing: 2pt; font-weight: 600">
+02. ABOUT</span> <span style="color:black">[ you are here ]</span> <br>
+
+<a href="resources.html"><span style="letter-spacing: 2pt; font-weight: 600">
+03. RESOURCES</span> — free downloads →</a><br>
+
+<a href="https://twitter.com/mattcolewilson" target="blank"><span style="letter-spacing: 2pt; font-weight: 600">
+04. TWITTER</span> — hot takes →</a><br>
+
+<a href="https://dribbble.com/mattcolewilson" target="blank"><span style="letter-spacing: 2pt; font-weight: 600">
+05. DRIBBBLE</span> — more design →</a><br>
+
+<a href="https://www.linkedin.com/in/mattcolewilson/" target="blank"><span style="letter-spacing: 2pt; font-weight: 600">
+06. LINKEDIN</span> — business time →</a><br>
+</p>
+</nav>
+
+<h2>about me</h2>
+
+<nav>
+<p><span style="color: black;">
+Hi! My name is Matt Cole Wilson (he/him) and I do graphic design. I live and work in Kansas City and am currently available for small freelance projects. I’m also interested in doing pro-bono work for non-profit organizations, causes, and other cool, non-commercial projects.</span></p>
+    
+<p>
+<span style="color: black;">+ Specialties: layout, logo design, typography</span><br>
+<span style="color: black;">+ Likes:  video games, horror novels, pancakes</span><br>
+<span style="color: black;">+ Dislikes: cold weather, litter, fascists</span><br>
+    
+    
+<p><span style="color: black;">
+Want to work together? Don’t hesitate to reach out!</span></p>
+    
+<p>
+<span style="letter-spacing: 2pt; font-weight: 600">MATTCOLEWILSON [AT] GMAIL.COM</span></p>
+</nav>
+    
+<div class="footer">
+<img src="images/logo.svg" style="float: left; width: 45px; padding-right: 10px;">
+<span style="color:black">Last updated February 2022.<br>
+    Thank you for visiting! (•◡•)</span><br><br>
+</div>
+    
+<div class="mobile">
+<img src="images/logo.svg" style="float: left; width: 45px; padding-right: 10px;">
+<span style="color:black">This site is best viewed on a computer.<br>
+    Thank you for visiting! (•◡•)</span><br><br>
+</div>
+        
+</div>
+    
+<div class="flex-right">
+
+<p><img src="images/portrait.jpg"></p>
+    
+<p><img src="images/3d.gif"></p>
+    
+<p><img src="images/kc.jpg"></p>
+    
+<p><span style="color: black;">Portrait created by</span> <a href="https://danilandia.online/" target="blank">Dani Moll Toste.</a> <span style="color: black;">Web design inspired by <a href="https://youtu.be/5iZckJ44TJc" target="_blank">Wipeout 3.</a></p>
+        
+<!-- movable objects section -->
+<div style="display:block; height:95%; position:fixed; top:0; left:30%; right:0; margin:auto;">
+    
+<div style="right: 14%; bottom: 17%; position:absolute;"><img class="drag" src="images/sticker-rewind.png"  width="200px"></div>
+
+<div style="right: 23%; bottom: -2%; position:absolute;"><img class="drag" src="images/sticker-thanks.png"  width="200px"></div>
+
+<div style="right: 30%; bottom: 9%; position:absolute;"><img class="drag" src="images/sticker-gd.png"  width="250px"></div>
+    
+<div style="right: 46%; bottom: 0%; position:absolute;"><img class="drag" src="images/sticker-flower.png"  width="200px"></div>
+    
+<div style="right: 1%; bottom: 0%; position:absolute;"><img class="drag" src="images/sticker-m.png"  width="200px"></div>
+    
+</div>
+
+
+</div></div>
+    
+
+</body>
+
+</html>
