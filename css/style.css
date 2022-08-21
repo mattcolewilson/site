@@ -45,6 +45,22 @@ nav {line-height: 14pt;}
 
 .footer {font-family: "Inconsolata", monospace; font-size: 11px; color: white; line-height: 1.6; position: absolute; width: 100%; bottom: 0%;}
 
+.sketchfab-embed-wrapper{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio*/
+}
+.sketchfab-embed-wrapper iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .mobile {display: none;}
 
 @media (max-width: 850px) {
