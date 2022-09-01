@@ -8,19 +8,18 @@
 }
 
 .flex-left {
-  width: 30%;
+  width: 40%;
   height: 100vh;
   position: -webkit-sticky; /* for Safari */
   position: sticky;
   top: 0;
   align-self: flex-start;
-  padding-right: 50px;
+  padding-right: 75px;
   margin-top: -15px;
 }
 
 .flex-right {
-  width: 70%;
-  padding-left: 25px;
+  width: 60%;
 }
 
 
