@@ -1,0 +1,60 @@
+body {background-color: #F5F8F7; margin: 50px;}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-left {
+  width: 50%;
+  max-width: 800px;
+  align-self: flex-start;
+  padding-right: 5%;
+  border-right: 1px solid #000F55;
+}
+
+.flex-right {
+  width: 30%;
+  max-width: 300px;
+  padding-left: 5%;
+}
+
+* { font-family: 'Inconsolata', monospace; font-size: 14px; font-weight: normal; line-height: 1.4; color: #000F55;}
+
+ul {list-style-type: disc; }
+h2 {font-weight: bold; letter-spacing: 1px; text-transform: uppercase;}
+b {font-weight: bold;}
+
+a {color: #000F55; text-decoration: none; border-bottom: 1px dotted;}
+
+a:hover{color: #c80000}
+
+hr {border-top: 1px dotted #0a0a64; margin-top: 25px; margin-bottom: 25px;}
+
+pre {line-height: normal;}
+
+::-moz-selection { /* Code for Firefox */
+  color: #F5F8F7;
+  background: #000F55;
+}
+
+::selection {
+  color: #F5F8F7;
+  background: #000F55;
+}
+
+img {width: 100%;}
+
+div.logo {width: 70px;}
+
+
+@media (max-width: 850px) {
+  .flex-right, .flex-left {
+    height: auto;
+    max-width: 100%;
+    position: relative;
+    flex: 100%;
+    padding: 0px;
+    border: none;
+  }
+    
