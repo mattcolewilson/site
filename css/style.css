@@ -47,6 +47,9 @@ img {width: 100%; image-rendering: crisp-edges;}
 
 div.logo {width: 70px;}
 
+#statuscafe {
+    background-color: #F5F8F7;
+}
 
 @media (max-width: 850px) {
   .flex-right, .flex-left {
