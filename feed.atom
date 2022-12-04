@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Matt Cole Wilson → Blog</title>
-  <updated>2022-12-03T16:20:00-06:00</updated>
+  <updated>2022-12-04T16:20:00-06:00</updated>
   <id>https://mattcolewilson.com/feed.xml</id>	
   <author>
     <name>Matt Cole Wilson</name>
@@ -10,6 +10,26 @@
   </author>
   <link rel="self" href="https://mattcolewilson.com/feed.xml" />
   <link rel="alternate" href="https://mattcolewilson.com/blog" />
+    
+<entry>
+<title>This Time it's Personal</title>
+<published>2022-12-05T04:20:00-06:00</published>
+<link href="file:///Users/mattcolewilson/Downloads/DELETE/blog.html#2022.12.04"/>
+<content type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">  
+<p>I wanted to write a little post to address the changes I’ve made to my website. Until recently, this was solely a design portfolio. That stuff isn’t going away, don’t even worry! I’m just expanding the scope and highlighting a few of my other interests. I’ve been championing personal websites for a long time now and have always felt a little hypocritical that my own website was a bit impersonal. Nothing wrong with showing your work and having that lead to employment or a gig or whatever. But I never liked the idea that my little Home on the Web was solely focused on professional or commercial endeavors.</p>
+<p>Over the last few years, I’ve fallen back in love with personal websites and have been very inspired by the indie web movement. Like a lot of people, I’m extremely frustrated by the corporate control of the internet and the downward spiral we’ve been on for the last decade. People rarely leave social media, and when they do, they usually end up on websites that were written solely for an SEO algorithm and are bloated with ads and tracking code. It’s a huge relief when you occasionally stumble across a website and realize that it was created by an actual human being, somehow doesn’t include advertisements or cookies, and doesn’t ultimately boil down to some sort of grift. That’s the kind of website I want to have. A little oasis of personal expression.</p>
+<p>Using the internet to express yourself, and doing so independently, is a pretty neat thing to do. And I think it’s easy for people to forget this is an option, when they are constantly being manipulated to never leave social media. It takes very little effort to have a personal website, so I don’t want to self-aggrandize here, but I do think there’s something a little virtuous about having one of these things in the current climate. It’s a tiny rebellion. A tiny political action to snub your nose at these platforms.</p>
+<p>I mean, it’s probably the Best and Most Virtuous Thing to be offline altogether. But if we’re choosing between the false dichotomy that I’ve set up — of having a social media account OR having your own website — I think the choice is clear. Your own website is whatever you want it to be. Social media is poison. The two are incomparable.</p>
+<p>Don’t get me wrong, I’m not saying I’m above social media or anything. I spend too much time in both of these spaces. And I loved Twitter, which is very likely the worst and most toxic of all social media platforms. But I had a nice time there and would even consider going back if the current shitshow someday ends. All I’m trying to say by making this clumsy comparison, is that if you use social media to share your interests and connect with others, you can also do that on your own website, on your own terms. You have that option. And I want you to know that.</p>
+<p>I should probably add some caveats, though. If you’re going to set up a website all by yourself, you’ll probably need to know some HTML and CSS. And even if you’re just going to be a viewer, manually visiting websites that are made and maintained by human beings takes more effort than relying on an algorithm to serve you up content. But! There are tools and resources out there to help you along the way. People have been doing this sort of thing since the beginning of the internet. I mean, in the grand scheme of things, this is what the internet is all about, actually. Don’t let a few lines of code or minor inconvenience intimidate you.</p>
+<p>Once you get comfortable on the outside of the walled garden, there are whole other worlds to explore. Rabbit holes as far as the eye can see. It can be easy to forget how massive the actual internet is when you spend all of your time inside one or two apps. We’re talking about the goddamned information superhighway here. Cyber SPACE, for God's sake. It’s all still out there, waiting for you to explore.</p>
+<p>I’m likely preaching to the choir here, but if any of this sounds new or appealing, here are some quick tips for succesfully surfing the internet outside of social media:</p>
+<p>Look for smaller online communities and webrings. Yesterweb.org is a good place to start, especially if you’re interested in the “movement” aspect. The <a href="https://webring.xxiivv.com/" target="_blank">XXIIVV webring ↗</a> is great, if you want to explore minimal/optimal websites and blogs. And here’s a <a href="https://sadgrl.online/cyberspace/webrings.html" target="_blank">good list of other webrings ↗</a>, curated by the creator of the Yesterweb. (I’ll also eventually make a list of sites that I recommend, so check back in the near future for that!) </p>
+<p>Get used to bookmarking websites you like and want to revisit. Again, this takes more intentionality, but that’s a good thing actually. It’s good to seek out things you care about instead of just taking in whatever the algorithm feeds you. But it does take time to relearn this behavior, to be fair. Utilizing your browser's built in bookmark feature makes it easier.</p>
+<p>Use an RSS reader. I’m a bit new to this side of things, but it’s honestly a shame that RSS isn’t more common on the modern internet. If you prefer having content delivered directly to you instead of seeking it out, this is the way to go. Just plug in your favorite websie's feed and you'll have content populated in your reader as soon as it's published. A great substitute for social media. I currently use NetNewsWire and it's great.</p>
+<p>All this to say, my website is now a personal website and I'm pretty stoked about it. I hope to spend more time hanging out here and less time on social media. And it’d be rad if you joined me.</p>
+</entry>
 <entry>
 <title>The Death of a Bird</title>
 <published>2022-11-16T04:20:00-06:00</published>
