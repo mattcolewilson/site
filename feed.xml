@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>mattcolewilson's blog</title>
-  <updated>2022-12-03</updated>
+  <title>Matt Cole Wilson → Blog</title>
+  <updated>2022-12-03T04:20:00-06:00</updated>
   <id>https://mattcolewilson.com/feed.xml</id>	
   <author>
     <name>Matt Cole Wilson</name>
@@ -13,7 +13,7 @@
 
 <entry>
 <title>The Death of a Bird</title>
-<published>2022-11-16</published>
+<published>2022-11-16T04:20:00-06:00</published>
 <link href="https://mattcolewilson.com/blog#2022.11.16" />
 <content type="xhtml">
 <div xmlns="http://www.w3.org/1999/xhtml"> 
@@ -50,7 +50,7 @@
     
 <entry>
 <title>Things on my Desk</title>
-<published>2022-03-05</published>
+<published>2022-03-05T04:20:00-06:00</published>
 <link href="https://mattcolewilson.com/blog#2022.03.05" />
 <content type="xhtml">
 <div xmlns="http://www.w3.org/1999/xhtml"> 
