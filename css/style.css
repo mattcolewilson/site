@@ -19,7 +19,7 @@ body {background-color: #F5F8F7; margin: 3% 5%;}
   padding-left: 5%;
 }
 
-* { font-family: 'Inconsolata', monospace; font-size: 14px; font-weight: normal; line-height: 1.4; color: #000F55;}
+* { font-family: 'Inconsolata', monospace; font-size: 14px; font-weight: 300; line-height: 1.4; color: #000F55;}
 
 ul {list-style-type: disc; }
 h2 {font-weight: bold; letter-spacing: 1px; text-transform: uppercase;}
