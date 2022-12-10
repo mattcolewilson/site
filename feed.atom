@@ -2,13 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Matt Cole Wilson → Blog</title>
   <updated>2022-12-04T16:20:00-06:00</updated>
-  <id>https://mattcolewilson.com/feed.xml</id>	
+  <id>https://mattcolewilson.com/feed.atom</id>	
   <author>
     <name>Matt Cole Wilson</name>
     <email>mattcolewilson@gmail.com</email>
     <uri>https://mattcolewilson.com</uri>
   </author>
-  <link rel="self" href="https://mattcolewilson.com/feed.xml" />
+  <link rel="self" href="https://mattcolewilson.com/feed.atom" />
   <link rel="alternate" href="https://mattcolewilson.com/blog" />
 <entry>
 <title>This Time it's Personal</title>
