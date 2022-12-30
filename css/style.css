@@ -43,6 +43,10 @@ pre {line-height: normal;}
   background: #000F55;
 }
 
+mark {
+  background-color: #FFFF90;
+}
+
 img {width: 100%; image-rendering: crisp-edges;}
 
 div.logo {width: 70px;}
