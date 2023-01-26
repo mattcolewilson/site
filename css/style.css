@@ -19,6 +19,14 @@ body {background-color: #F5F8F7; margin: 3% 5%;}
   padding-left: 5%;
 }
 
+columns {
+  max-width: 1042px;
+  width: 100%; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
 * { font-family: 'Inconsolata', monospace; font-size: 14px; font-weight: normal; line-height: 1.4; color: #000F55;}
 
 ul {list-style-type: disc; }
@@ -65,3 +73,8 @@ div.logo {width: 70px;}
     border: none;
   }
     
+
+@media (max-width: 825px) {
+  columns {grid-template-columns: 1fr;
+  }
+}
