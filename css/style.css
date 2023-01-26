@@ -20,7 +20,7 @@ body {background-color: #F5F8F7; margin: 3% 5%;}
 }
 
 columns {
-  max-width: 1042px;
+  max-width: 1200px;
   width: 100%; 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
