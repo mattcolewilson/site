@@ -1,80 +1,36 @@
-body {background-color: #F5F8F7; margin: 3% 5%;}
-
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.flex-left {
-  width: 50%;
-  max-width: 800px;
-  align-self: flex-start;
-  padding-right: 5%;
-  border-right: 1px solid #000F55;
-}
-
-.flex-right {
-  width: 30%;
-  max-width: 300px;
-  padding-left: 5%;
-}
+body {margin: 3%;}
 
 columns {
-  max-width: 1200px;
+  max-width: 1920px;
   width: 100%; 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 1em;
+  align-items: center;
 }
 
-* { font-family: 'Inconsolata', monospace; font-size: 14px; font-weight: normal; line-height: 1.4; color: #000F55;}
+* { font-family: sans-serif; line-height: 1.4;}
+a {color: black;}
 
-ul {list-style-type: disc; }
-h2 {font-weight: bold; letter-spacing: 1px; text-transform: uppercase;}
-b {font-weight: bold;}
+hr {border: none; height: 1px; color: black; background-color: black; margin: 25px 0px 25px 0px;}
 
-a {color: #000F55; text-decoration: none; border-bottom: 1px dotted;}
-
-a:hover{color: #c80000}
-
-hr {border-top: 1px dotted #0a0a64; margin-top: 25px; margin-bottom: 25px;}
-
-pre {line-height: normal;}
-
-::-moz-selection { /* Code for Firefox */
-  color: #F5F8F7;
-  background: #000F55;
-}
-
-::selection {
-  color: #F5F8F7;
-  background: #000F55;
-}
-
-mark {
-  background-color: #ffffd0;
-}
+.right {text-align: right;}
 
 img {width: 100%;}
 
-div.logo {width: 70px;}
+div.logo {width: 55px; margin-left: auto;}
 
-#statuscafe {
-    background-color: #F5F8F7;
+div.static {
+  width: 55vh;
+  opacity: .5;
+  position: fixed;
+  top: 20%;
+  right: 3%;
 }
 
-@media (max-width: 850px) {
-  .flex-right, .flex-left {
-    height: auto;
-    max-width: 100%;
-    position: relative;
-    flex: 100%;
-    padding: 0px;
-    border: none;
-  }
-    
-
-@media (max-width: 825px) {
-  columns {grid-template-columns: 1fr;
-  }
+@media (max-width: 650px) {
+columns {grid-template-columns: 1fr;}
+.right {text-align: left;}
+div.logo {margin-left: 0;}
+div.static {display: none;}
 }
