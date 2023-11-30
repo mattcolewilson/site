@@ -28,7 +28,7 @@ div.logo {width: 55px; margin-left: auto;}
   right: 3%;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 800px) {
 columns {grid-template-columns: 1fr;}
 .right {text-align: left;}
 div.logo {margin-left: 0;}
