@@ -20,7 +20,7 @@ img {width: 100%;}
 
 div.logo {width: 55px; margin-left: auto;}
 
-div.static {
+.static {
   width: 55vh;
   opacity: .5;
   position: fixed;
@@ -32,5 +32,5 @@ div.static {
 columns {grid-template-columns: 1fr;}
 .right {text-align: left;}
 div.logo {margin-left: 0;}
-div.static {display: none;}
+.static {display: none;}
 }
