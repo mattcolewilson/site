@@ -9,10 +9,10 @@ columns {
   align-items: center;
 }
 
-* { font-family: sans-serif; line-height: 1.4;}
-a {color: black;}
+* { font-family: sans-serif; line-height: 1.4; color: #2e2c70}
+a {color: #2e2c70;}
 
-hr {border: none; height: 1px; color: black; background-color: black; margin: 25px 0px 25px 0px;}
+hr {border: none; height: 1px; background-color: #2e2c70; margin: 25px 0px 25px 0px;}
 
 .right {text-align: right;}
 
