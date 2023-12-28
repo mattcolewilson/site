@@ -1,7 +1,6 @@
-body {margin: 3%;}
+body {margin: 3%; max-width: 1920px;}
 
 columns {
-  max-width: 1920px;
   width: 100%; 
   display: grid;
   grid-template-columns: 1fr 1fr;
