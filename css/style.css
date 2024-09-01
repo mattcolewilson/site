@@ -33,3 +33,15 @@ columns {grid-template-columns: 1fr;}
 div.logo {margin-left: 0;}
 .static {display: none;}
 }
+
+#statuscafe {
+    padding: .5em;
+    background-color: #ffffff;
+    border: 1px solid #2e2c70;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
