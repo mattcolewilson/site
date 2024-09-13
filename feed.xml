@@ -1,8 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><atom:link href="https://mattcolewilson.com/rss.xml" rel="self" type="application/rss+xml" /><title>mattcolewilson.com</title><link>mattcolewilson.com</link><description>i do things</description><language>en-us</language><item><title>Blog – Coming Soon</title><pubDate>Fri, 13 Sep 2024 11:30:23 -0500</pubDate><link>https://mattcolewilson.com/blog</link><guid>https://mattcolewilson.com/blog</guid><description>Working on it. Also setting up an RSS feed that you can find here. It&apos;s full of old content right now, but it will get an overhaul soon. Maybe this weekend. Big plans for this thing, lol. Thanks for looking.</description></item><item><title>RSS Will Save Us</title><pubDate>Fri, 13 Sep 2024 16:59:57 +0000</pubDate><link>https://mattcolewilson.com/blog</link><guid>https://mattcolewilson.com/blog</guid><description>I’m being hyperbolic, but RSS is my latest micro-obsession. The slow death of social media is scattering us to the winds and it’s becoming harder to connect with others on the internet without selling your soul and attention span. RSS seems like a good way to keep in touch without very many compromises. The one drawback is that it’s clunky and cumbersome to set up and manage, but it does provide the ultimate convenience of bringing stuff right to you.&lt;br/&gt;
-
-Earlier today I downloaded a free, open source app called Feeder that did not force me to sign up for an account or give them any of my information. I then plugged in a handful of RSS feeds from people I’m interested in. And suddenly I’ve got a stream of content coming directly to me without any strings attached. Independent. Tried and true. No algorithms. No ads. Just the good shit. &lt;br/&gt;
-
-You can even do cool stuff like this post, which is only viewable in my RSS feed. This concept is called “rosting” which is “posting” solely via “RSS.” Talk about carving out a quiet little corner of the internet. What could be quieter than this? The idea came from Ruby Valentine and it’s a great idea and I’m gonna start doing it more often.&lt;br/&gt;
-
-Cheers. Thanks for reading. 
-</description></item></channel></rss>"
+<rss version="2.0">
+<channel>
+<title>mattcolewilson – now</title>
+<link>https://mattcolewilson.com/now.html</link>
+<description>What I'm doing now.</description>
+<image>
+<url>https://mattcolewilson.com/images/now.jpg</url>
+</image>
+<item>
+<title>2024.02.23 – Friday</title>
+<link>https://mattcolewilson.com/now.html</link>
+<description>
+<p>
+<b>Design</b>
+</p>
+<p>Finishing up my Famicase design for this year and getting it ready for submission. It's maybe a little derivative but I think it's gonna be my best one yet. Also thinking about redesigning my website ((again)) and all the stuff that’s on it. We’ll see.</p>
+<p>
+<b>Personal</b>
+</p>
+<p>I’m like 90% over a cold, but have been kinda sick for like two weeks now. Shit sucks, dude. Today’s my wife’s birthday. (Happy birthday, Alyson!) But we’ve postponed our weekend plans and a visit from her brother, because we’re both under the weather. Still having a nice day, though.</p>
+<p>
+<b>Recommendations</b>
+</p>
+<p>I’ve recently been inspired by all the cool stuff Jack Grimes and Ravi Maher post on their Are.na boards. (Are.na is extra appealing lately, because the Tumblr CEO has been showing his whole ass.) Poking around on Are.na also led me back to Lauren Gallagher’s website, which is really great and prompted the previously-mentioned desire to redesign my own site.</p>
+<p>
+<b>Playing</b>
+</p>
+<p>Currently playing Cyberpunk 2077. This is my second go and I'm having a nice time overall. Focusing on shotguns and hitting bad guys with a big hammer. Significantly more fun than my generic, jack-of-all-trades first playthrough back in 2021. (And a little less janky, too.)</p>
+<p>
+<b>Reading</b>
+</p>
+<p>I’ve started The Shining Girls by Lauren Beukes a couple of times, which is the February pick of the Last Words Book Club. But it’s just not clicking. Maybe I’m not giving it a fair chance, or maybe I’m just not in the mood. Probably gonna bail. Mexican Gothic is next month’s pick. Aside from that, I’m newly interested in reading Neuromancer by William Gibson for cyberpunk reasons.</p>
+<p>
+<b>Listening</b>
+</p>
+<p>I’ve been poking around at some older, heavy stuff. Recently discovered Godflesh, which I think I’m into. A whole lot of stuff to explore there. I’ve also been listening to the first Kittie album. It kicks ass. I knew of them as a teen, but never really got into them. Some real nostalgic sounds.</p>
+<p>
+<b>Watching</b>
+</p>
+<p>Just finished up Tim Rogers 8-hour, choose-your-own-adventure analysis of Cyberpunk 2077. One of the best to ever do it. And he’s right! The last movie I watched was They Came Together on Valentine’s Day, which is probably the funniest movie of the last 10 years.</p>
+</description>
+</item>
+</channel>
+</rss>
