@@ -1,27 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
-<channel>
-<title>mattcolewilson – blog</title>
-<link>https://mattcolewilson.com/blog.html</link>
-<description>It’s a blog.</description>
-<image>
-<url>https://mattcolewilson.com/images/tacobell.gif</url>
-</image>
-<item>
-
-<title>RSS Will Save Us</title>
-<pubDate>Fri, 13 Sep 2024 11:30:23 -0500</pubDate>
-<link>https://mattcolewilson.com/now.html</link>
-<description>
-<img src="https://mattcolewilson.com/images/tacobell.gif">
-I’m being hyperbolic, but RSS is my latest micro-obsession. The slow death of social media is scattering us to the winds and it’s becoming harder to connect with others on the internet (without selling your soul and attention span). RSS seems like a good way to keep in touch without very many compromises. The one drawback is that it’s clunky and cumbersome to set up and manage, but it does provide the ultimate convenience of bringing stuff right to you.<br/><br/>
-
-Earlier today I downloaded a free, open source app called Feeder that did not force me to sign up for an account or give them any of my information. I then plugged in a handful of RSS feeds from people I’m interested in, and suddenly I’ve got a stream of content coming directly to me without any strings attached. Independent. Tried and true. No algorithms. No ads. Just the good shit. <br/><br/>
-
-You can even do cool stuff like this post, which is only viewable in my RSS feed. This concept is called “rosting” which is “posting” solely via “RSS.” Talk about carving out a quiet little corner of the internet. What could be quieter than this? The idea came from Ruby Valentine and it’s a great idea and I’m gonna start doing it more often.<br/><br/>
-
-Cheers. Thanks for reading. 
-</description>
-</item>
-</channel>
-</rss>
+    <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel><title>mattcolewilson</title>
+    <atom:link href="mattcolewilson.com/rss.xml" rel="self" type="application/rss+xml" />
+    <link>mattcolewilson.com</link>
+    <description>We're doing this now.</description>
+	<item>
+        <title>What I'm Doing Now </title>
+        <pubDate>Sun, 15 Sep 2024 01:37:00 GMT</pubDate>
+        <description><![CDATA[<p>Playing → Elden Ring (Just got the DLC!)</p>
+<p>Listening → Busdriver - Perfect Hair</p>
+<p>Reading → Cold Hand in Mine - Robert Aickman</p>]]></description>
+        <author>mattcolewilson@gmail.com</author>
+            <link>https://mattcolewilson.com/now.html</link>
+        <guid>https://mattcolewilson.com/now.html</guid>
+        </item>
+    <item>
+        <title>RSS Will Save Us</title>
+        <pubDate>Fri, 13 Sep 2024 21:20:00 GMT</pubDate>
+        <description><![CDATA[<p>I’m being hyperbolic, but RSS is my latest micro-obsession. The slow death of social media is scattering us to the winds and it’s becoming harder to connect with others on the internet (without selling your soul and attention span). RSS seems like a good way to keep in touch without very many compromises. The one drawback is that it’s clunky and cumbersome to set up and manage, but it does provide the ultimate convenience of bringing stuff right to you. Earlier today I downloaded a free, open source app called Feeder that did not force me to sign up for an account or give them any of my information. I then plugged in a handful of RSS feeds from people I’m interested in, and suddenly I’ve got a stream of content coming directly to me without any strings attached. Independent. Tried and true. No algorithms. No ads. Just the good shit. You can even do cool stuff like this post, which is only viewable in my RSS feed. This concept is called “rosting” which is “posting” solely via “RSS.” Talk about carving out a quiet little corner of the internet. What could be quieter than this? The idea came from Ruby Valentine and it’s a great idea and I’m gonna start doing it more often.</p>]]></description>
+        <author>mattcolewilson@gmail.com</author>
+            <link>https://mattcolewilson.com/now.html</link>
+        <guid>https://mattcolewilson.com/now.html</guid>
+        </item>
+        <item>
+    <title>2024.09.14 – What's Next?</title>
+    <pubDate>Sun, 15 Sep 2024 02:14:00 GMT</pubDate>
+    <description><![CDATA[<p>But this pending change is also very motivating, which is the silver lining I’m trying to focus on. It’s making me finally get an RSS reader and create my own feed, so I can keep in touch with some of the aforementioned folks as well as occasionally shout into a void. It’s reignited my (frequent) desire to redesign my own website and continue to encourage others to have personal websites. And from what I’m seeing, most of the other users feel similarly, which is extremely encouraging. Another indie web boom in the making, at least when it comes to my dwindling circle of internet friends and mutuals.</p>
+<p>My main goal in the coming weeks is to clean up my website so it better allows for “posts” and serves as a little more than a graphic design portfolio. I’ve kinda painted myself into a corner by relying on this Now page. It’s a corner I still really like. But I dunno. I might change it up. I love Will’s website and might pivot to doing something more like that. Maybe using Jack’s Free Website as a starting point.</p>
+<p>I’m also gonna get real into RSS and treat that as if it’s a social media platform. People are doing cool stuff with RSS, like Ruby’s “rosting” concept. You can just make posts that only exist in the RSS feed. It's neat! There's potential here. It's like tweets without the interactions. I’ve made a few rosts myself.</p>
+<p>And lastly, I’m going to spend more time in forums. We’ve got Famiclub which is criminally underused (even by me) and has a lot of potential. I’ve also had a nice time visiting the Insert Credit forum in the past. And there’s also the Last Words Book Club, which is my fledgling Discord server for horror book discussions. (Not really a forum, but you knowhatimean.) These are nice spaces!</p>
+<p>Also, I recognize that I have the privilege of not needing to rely on social media to foster a following and generate income. I have a job that I like and it’s (seemingly) pretty secure. And I also realize that I have the free time and the knowledge to go off the beaten path like this without much consequence. So it’s a blessing to not be tempted by Bluesky, Instagram, etc. and whatever is happening inside those walled gardens.</p>
+<p>All that could change someday. (Although I have sworn an oath to never join Bluesky.) But right now, I have the ability to say “fuck that shit.” And let me tell you, it feels nice! I’m not going to participate in those spaces unless I get incredibly desperate. And maybe not even then, because I have generally had a Bad Time and not much to show for it, tbh.</p>
+<p>I'm bummed by the last Good Website going away, but I'm also a little optimistic about my evolving relationship with the internet. Being online without being Online™. Fewer distractions. More intentionality. Things are clunky out here, but the occasional speed bump also has its uses.</p>
+<p>That’s all for now. Gonna go play some Elden Ring. Thanks for reading. Good luck out there.</p>]]></description>
+    <author>mattcolewilson@gmail.com</author>
+        <link>https://mattcolewilson.com/now.html</link>
+    <guid>https://mattcolewilson.com/now.html</guid>
+    </item>
+    </channel>
+    </rss>

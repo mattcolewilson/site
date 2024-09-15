@@ -1,47 +1,57 @@
-body {margin: 3%;}
+body {margin: 2% 4% 2%;}
 
 columns {
   width: 100%; 
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 1em;
-  align-items: center;
+  gap: 10px 3%;
 }
 
-* { font-family: sans-serif; line-height: 1.4; color: #2e2c70}
+* {font-family: sans-serif; line-height: 1.4; color: #2e2c70;}
 a {color: #2e2c70;}
 
-hr {border: none; height: 1px; background-color: #2e2c70; margin: 25px 0px 25px 0px;}
+p {max-width: 70ch;}
 
-.right {text-align: right;}
+hr {border: none; height: 1px; background-color: #2e2c70; opacity: .2; margin: 25px 0px 25px 0px;}
+
+.right {text-align: right; max-width: 100%;}
 
 img {width: 100%;}
 
 div.logo {width: 55px; margin-left: auto;}
 
-.static {
+.subnav {
+position: fixed;}
+
+.headshot {
   width: 55vh;
-  opacity: .5;
+  opacity: .3;
   position: fixed;
   top: 20%;
-  right: 3%;
+  right: 4%;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
 columns {grid-template-columns: 1fr;}
 .right {text-align: left;}
 div.logo {margin-left: 0;}
-.static {display: none;}
+.headshot {display: none;}
+}
+
+@media (prefers-color-scheme: dark) {
+*{
+--textcolor: #ffffff;
+--bgcolor: #26262D;
+--links: #B2B2B2;
+--mono: #ccc;
+--monobg: #3f3f3f;
+}
+p{
+letter-spacing: .025em;
+font-weight: 350;
+}
 }
 
 #statuscafe {
-    padding: .5em;
-    background-color: #ffffff;
-    border: 1px solid #2e2c70;
-}
-#statuscafe-username {
-    margin-bottom: .5em;
-}
-#statuscafe-content {
-    margin: 0 1em 0.5em 1em;
+	max-width: 70ch;;
 }
