@@ -1,0 +1,43 @@
+html {
+  padding: 15px;
+}
+
+body {
+  max-width:600px;
+  margin: 20px auto;
+  font-family: monospace;
+  color: var(--text);
+  background-color: var(--bg);
+}
+
+* {
+  color: var(--text); 
+  line-height: 1.6;  
+  letter-spacing: .025em;   
+  --text: #3c3c3c;
+  --bg: #f9f9f9;}
+
+h3 {font-weight: normal;}
+
+.post {
+  border: 1px solid;
+  border-color: var(--text);
+  padding: 25px;
+  margin: 25px auto;
+}
+
+img {
+  width: 100%;
+}
+
+.bio {text-align: center;}
+
+.avatar {width: 112px; height:112px; border: 1px solid; border-radius: 50%; overflow: hidden; margin: auto;}
+
+@media (prefers-color-scheme: dark) {
+*{
+--text: silver;
+--bg: #121212;
+}
+.post {border-color: grey;}
+}
