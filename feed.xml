@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 <id>http://www.mattcolewilson.com/feed.xml</id>
+
 <title>mattcolewilson</title>
 <updated>2024-09-16T21:32:55-05:00</updated>
 <author>
@@ -10,6 +11,7 @@
 </author>
 <link rel="self" href="http://www.mattcolewilson.com/feed.xml"/>
 <link rel="alternate" href="http://www.mattcolewilson.com/now.html”/>
+
 <entry>
 <title>This is an example of a rost.</title>
 <published>2024-09-16T18:43:13-05:00</published>
@@ -20,6 +22,7 @@
 </div>
 </content>
 </entry>
+
 <entry>
 <title>This is a rost title.</title>
 <published>2024-09-15T18:43:13-05:00</published>
@@ -30,9 +33,11 @@
 </div>
 </content>
 </entry>
+
 <entry>
 <title>This is a rost contained to the title.</title>
 <published>2024-09-14T18:43:13-05:00</published>
 <guid isPermaLink="false">rost01</guid>
 </entry>
+
 </feed>
