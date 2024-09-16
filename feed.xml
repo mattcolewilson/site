@@ -3,35 +3,48 @@
 <id>http://www.mattcolewilson.com/feed.xml</id>
 
 <title>mattcolewilson</title>
-<updated>2024-09-16T21:32:55-05:00</updated>
+<updated>2024-09-16T22:54:53-05:00</updated>
 <author>
 <name>mattcolewilson</name>
 <email> mattcolewilson@gmail.com</email>
 <uri>http://www.mattcolewilson.com/now.html</uri>
 </author>
-<link rel="self" href="http://www.mattcolewilson.com/feed.xml"/>
-<link rel="alternate" href="http://www.mattcolewilson.com/now.html”/>
+<link>https://mattcolewilson.com</link>
+<atom:link href="https://mattcolewilson.com/feed.xml" rel="self" type="application/rss+xml"/>
 
 <item>
-<title>This is a rost title.</title>
+<title>Testing to see if photos diplay.</title>
+<published>2024-09-16T18:43:13-05:00</published>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p><img src="https://mattcolewilson.com/images/arcade.jpg"/></p>
+</div>
+<link>https://mattcolewilson.com/now</link>
+<guid isPermaLink="false">Rost #02</guid>
+</description>
+</item>
+
+<item>
+<title>This is a rost contained to the title.</title>
 <published>2024-09-15T18:43:13-05:00</published>
-<guid isPermaLink="false">Rost #2</guid>
-<content type="xhtml">
 <div xmlns="http://www.w3.org/1999/xhtml">
 <p>This is an example of a rost with a title. Credit goes to <a href="https://cohost.org/YuushaRuby/post/7652006-let-me-introduce-you">Ruby Valentine</a> for this concept.</p>
 </div>
-</content>
+<link>https://mattcolewilson.com/now</link>
+<guid isPermaLink="false">Rost #02</guid>
+</description>
 </item>
 
 <item>
 <title>This is an example of a rost.</title>
 <published>2024-09-14T18:43:13-05:00</published>
 <link href="http://www.mattcolewilson.com/now.html"/>
-<content type="xhtml">
+<description type="xhtml">
 <div xmlns="http://www.w3.org/1999/xhtml">
-<p>This is the rost content. <b>Does bold text work?</b> <i>Italics?</i> Also note that this one has an actual link. The rest do not.</p>
+<p>This is the rost description. <b>Does bold text work?</b> <i>Italics?</i> Also note that this one has an actual link. The rest do not.</p>
 </div>
-</content>
+</description>
+<link>https://mattcolewilson.com/now</link>
+<guid isPermaLink="false">Rost #01</guid>
 </item>
 
 </feed>
