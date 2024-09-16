@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.mattcolewilson.com/feed.xml</id>
   <title>mattcolewilson</title>
-  <updated>2024-09-16T18:43:13-05:00</updated>
+  <updated>2024-09-16T21:32:55-05:00</updated>
   <author>
     <name>mattcolewilson</name>
     <email> mattcolewilson@gmail.com</email>
@@ -25,10 +25,10 @@
     <entry>
         <title>This is a rost title.</title>
         <published>2024-09-15T18:43:13-05:00</published>
-        <guid isPermaLink="false">rost#002</guid>
+        <guid isPermaLink="false">rost02</guid>
  			<content type="xhtml">
 			<div xmlns="http://www.w3.org/1999/xhtml">
-			 <p>This is an example of a rost with a title. Credit goes to Ruby Valentine for this concept: https://cohost.org/YuushaRuby/post/7652006-let-me-introduce-you</p>
+			 <p>This is an example of a rost with a title. Credit goes to <a href="https://cohost.org/YuushaRuby/post/7652006-let-me-introduce-you">Ruby Valentine</a> for this concept.</p>
 			</div>
         </content>
     </entry>
@@ -36,7 +36,7 @@
     <entry>
         <title>This is a rost contained to the title.</title>
         <published>2024-09-14T18:43:13-05:00</published>
-        <guid isPermaLink="false">rost#001</guid>
+        <guid isPermaLink="false">rost01</guid>
     </entry>
 
 </feed>
