@@ -1,36 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-<title>mattcolewilson</title>
-<description>What I’m up to</description>
-<link>https://mattcolewilson.com/now</link>
-<atom:link href="https://mattcolewilson.com/feed.xml” rel="self" type="application/rss+xml"/>
+<?xml version="1.0" encoding="utf-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://www.mattcolewilson.com/feed.xml</id>
+  <title>mattcolewilson</title>
+  <updated>{DATETIME}</updated>
+  <author>
+    <name>mattcolewilson</name>
+    <email> mattcolewilson@gmail.com</email>
+    <uri>http://www.mattcolewilson.com/now.html</uri>
+  </author>
+  <link rel="self" href="http://www.mattcolewilson.com/feed.xml" />
+  <link rel="alternate" href="http://www.mattcolewilson.com/now.html” />
 
-<item>
-<title>Atom Feed Under Construction</title>
-<description><![CDATA[<p>Playing → Elden Ring (Just got the DLC!)</p>
-<p>Listening → Busdriver - Perfect Hair</p>]]>
-<p>Reading → Cold Hand in Mine - Robert Aickman</p></description>
-<pubdate>2024-09-16T18:43:13-05:00</pubdate>
-<link>https://mattcolewilson.com/now</link>
-<guid isPermaLink="false">rost#003</guid>
-</item>
+    <entry>
+        <title>This is an example of a rost.</title>
+        <published>2024-09-16T18:43:13-05:00</published>
+        <link href="http://www.mattcolewilson.com/now.html"/>
+ 			<content type="xhtml">
+			<div xmlns="http://www.w3.org/1999/xhtml">
+			 <p>This is the rost content. <b>Does bold text work?</b> <i>Italics?</i> Also note that this one has an actual link. The rest do not.</p>
+			</div>
+        </content>
+    </entry>
 
-<item>
-<title>RSS Will Save Us</title>
-<description><![CDATA[<p>I’m being hyperbolic, but RSS is my latest micro-obsession. The slow death of social media is scattering us to the winds and it’s becoming harder to connect with others on the internet (without selling your soul and attention span). RSS seems like a good way to keep in touch without very many compromises. The one drawback is that it’s clunky and cumbersome to set up and manage, but it does provide the ultimate convenience of bringing stuff right to you.</p><p>Earlier today I downloaded a free, open source app called Feeder that did not force me to sign up for an account or give them any of my information. I then plugged in a handful of RSS feeds from people I’m interested in, and suddenly I’ve got a stream of content coming directly to me without any strings attached. Independent. Tried and true. No algorithms. No ads. Just the good shit. You can even do cool stuff like this post, which is only viewable in my RSS feed. This concept is called “rosting” which is “posting” solely via “RSS.” Talk about carving out a quiet little corner of the internet. What could be quieter than this? The idea came from Ruby Valentine and it’s a great idea and I’m gonna start doing it more often.</p>]]></description>
-<pubdate>2024-09-15T18:43:13-05:00</pubdate>
-<link>https://mattcolewilson.com/now</link>
-<guid isPermaLink="false">rost#002</guid>
-</item>
+    <entry>
+        <title>This is a rost title.</title>
+        <published>2024-09-15T18:43:13-05:00</published>
+        <guid isPermaLink="false">rost#002</guid>
+ 			<content type="xhtml">
+			<div xmlns="http://www.w3.org/1999/xhtml">
+			 <p>This is an example of a rost with a title. Credit goes to Ruby Valentine for this concept: https://cohost.org/YuushaRuby/post/7652006-let-me-introduce-you</p>
+			</div>
+        </content>
+    </entry>
 
-<item>
-<title>Atom Feed Under Construction</title>
-<description>Working on it. Pivoting to ATOM (instead of RSS) because it seems easier to update manually. Pardon the mess.</description>
-<pubdate>2024-09-14T18:43:13-05:00</pubdate>
-<link>https://mattcolewilson.com/now</link>
-<guid isPermaLink="false">rost#001</guid>
-</item>
+    <entry>
+        <title>This is a rost contained to the title.</title>
+        <published>2024-09-14T18:43:13-05:00</published>
+        <guid isPermaLink="false">rost#0012</guid>
+    </entry>
 
-</channel>
-</rss>
+</feed>
