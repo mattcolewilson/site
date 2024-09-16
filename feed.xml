@@ -1,7 +1,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
 <channel>
 <title>mattcolewilson.com</title>
-<description>Fighting for my life over here.</description>
+<description>What I'm up to.</description>
 <link>https://mattcolewilson.com/now</link>
 <atom:link href="https://mattcolewilson.com/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
@@ -9,10 +9,11 @@
 <description>
 <![CDATA[ <p><img src="https://mattcolewilson.com/images/arcade.jpg"/></p> ]]>
 </description>
-<pubDate>Sun, 16 Sep 2024 01:50:00 MST</pubDate>
+<pubDate>Mon, 16 Sep 2024 01:50:00 MST</pubDate>
 <link>https://mattcolewilson.com/now</link>
 <guid isPermaLink="false">rost#02</guid>
 </item>
+<item>
 <title>Testing text formatting.</title>
 <description>
 <![CDATA[ <p><b>Bold works.</b> <i>Italics, too.</i></p> ]]>
