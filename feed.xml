@@ -1,6 +1,6 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
 <channel>
-<title>mattcolewilson.com</title>
+<title>mattcolewilson</title>
 <description>Still postin'.</description>
 <link>https://mattcolewilson.com/now</link>
 <atom:link href="https://mattcolewilson.com/feed.xml" rel="self" type="application/rss+xml"/>
