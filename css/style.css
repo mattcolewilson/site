@@ -31,6 +31,8 @@ position: fixed;}
   right: 4%;
 }
 
+.button {width: 88px;}
+
 @media (max-width: 1000px) {
 columns {grid-template-columns: 1fr;}
 .right {text-align: left;}
