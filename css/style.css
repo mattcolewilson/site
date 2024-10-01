@@ -39,21 +39,3 @@ columns {grid-template-columns: 1fr;}
 div.logo {margin-left: 0;}
 .headshot {display: none;}
 }
-
-@media (prefers-color-scheme: dark) {
-*{
---textcolor: #ffffff;
---bgcolor: #26262D;
---links: #B2B2B2;
---mono: #ccc;
---monobg: #3f3f3f;
-}
-p{
-letter-spacing: .025em;
-font-weight: 350;
-}
-}
-
-#statuscafe {
-	max-width: 70ch;;
-}
