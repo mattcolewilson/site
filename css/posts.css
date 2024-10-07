@@ -17,6 +17,12 @@ body {
 
 h3 {font-weight: normal;}
 
+ul {
+	list-style: square; 
+	list-style-position: inside;
+	padding-left: 0;
+}
+
 small a {text-decoration: none; text-transform: uppercase; letter-spacing: .1em;}
 
 .post {
