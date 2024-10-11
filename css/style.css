@@ -10,7 +10,7 @@ columns {
 * {font-family: sans-serif; line-height: 1.4; color: #2e2c70;}
 a {color: #2e2c70;}
 
-p {max-width: 70ch;}
+p, blockquote {max-width: 70ch;}
 
 hr {border: none; height: 1px; background-color: #2e2c70; opacity: .2; margin: 25px 0px 25px 0px;}
 
