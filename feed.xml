@@ -4,6 +4,16 @@
 <description>Still postin'.</description>
 <link>https://mattcolewilson.com/now</link>
 <atom:link href="https://mattcolewilson.com/feed.xml" rel="self" type="application/rss+xml"/>
+
+<item>
+<title>New Page</title>
+<description>
+<![CDATA[ <p><img src="https://mattcolewilson.com/images/2024.10-arcade-2.jpg" alt="A mostly white cat stands in front of a white wall."/></p><p>Made a <a href="https://mattcolewilson.com/photos.html">new page</a> on my website. It's a photo stream extension of the Now page (but with a few more photos.) I like it, but it is making my posting process even more difficult, lol. (Now anytime I post an update with an image, I'm gonna add it to the Now page, the photos page, and this RSS feed.) But websites are fun, for real, for real.</p>]]>
+</description>
+<pubDate>Sun, 20 Oct 2024 15:45:00 CDT</pubDate>
+<link>https://mattcolewilson.com/photos</link>
+<guid isPermaLink="false">rost#32</guid>
+</item>
   
 <item>
 <title>More Cassette Tapes</title>
