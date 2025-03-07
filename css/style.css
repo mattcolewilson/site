@@ -30,6 +30,20 @@ div.logo {width: 55px; margin-left: auto;}
 
 .button {width: 88px;}
 
+.blink {
+    animation: 1s infinite blink;
+    display: inline;
+}
+
+@keyframes blink {
+    0%, 15% {
+        opacity: 0;
+    }
+    16%, 100% {
+        opacity: 1;
+    }
+}
+
 @media (max-width: 1000px) {
 columns {grid-template-columns: 1fr;}
 .right {text-align: left;}
