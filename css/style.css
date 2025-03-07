@@ -31,7 +31,7 @@ div.logo {width: 55px; margin-left: auto;}
 .button {width: 88px;}
 
 .blink {
-    animation: 1s infinite blink;
+    animation: 1.25s infinite blink;
     display: inline;
 }
 
