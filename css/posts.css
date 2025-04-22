@@ -14,8 +14,10 @@ body {
   letter-spacing: .025em;   
   --text: #3c3c3c;
   --bg: #f9f9f9;}
+  
+h1 {font-size: 20px;}
 
-h3 {font-weight: normal;}
+h2, h3 {font-weight: normal;}
 
 ul {
 	list-style: square; 
