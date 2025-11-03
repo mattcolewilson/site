@@ -51,7 +51,13 @@ div.logo {width: 55px; margin-left: auto;}
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1400px) {
+columns {grid-template-columns: 1fr 1fr;}
+div.logo {margin-left: 0;}
+div.ir {display: none;}
+
+
+@media (max-width: 800px) {
 columns {grid-template-columns: 1fr;}
 .two {grid-template-columns: 1fr;}
 .right {text-align: left;}
