@@ -51,22 +51,19 @@ div.logo {width: 55px; margin-left: auto;}
     }
 }
 
-@media (max-width: 1400px) {
-columns {grid-template-columns: 1fr 1fr;}
-div.logo {margin-left: 0;}
-div.ir {display: none;}
+@media (prefers-color-scheme: dark) {
+body{ 
+--text: silver;
+--bg: #121212;}
+}
 
+@media (max-width: 1200px) {
+columns {grid-template-columns: 1fr 1fr;}
+}
 
 @media (max-width: 800px) {
 columns {grid-template-columns: 1fr;}
 .two {grid-template-columns: 1fr;}
 .right {text-align: left;}
 div.logo {margin-left: 0;}
-div.ir {display: none;}
-}
-
-@media (prefers-color-scheme: dark) {
-body{ 
---text: silver;
---bg: #121212;
 }
