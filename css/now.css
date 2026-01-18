@@ -12,7 +12,7 @@ a {color: var(--text);}
 
 p, blockquote {max-width: 70ch;}
 
-hr {border: none; height: 1px; background-color: #2e2c70; opacity: .2; margin: 25px 0px 25px 0px;}
+hr {border: none; height: 1px; background-color: var(--text); opacity: .2; margin: 25px 0px 25px 0px;}
 
 .right {text-align: right; max-width: 100%;}
 
@@ -70,6 +70,11 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 	image-rendering: pixelated;
 }
 
+@media (prefers-color-scheme: dark) {
+body{ 
+--text: silver;
+--bg: #121212;}
+}
 
 @media (max-width: 1000px) {
 columns {grid-template-columns: 1fr;}
