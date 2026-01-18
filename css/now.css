@@ -1,0 +1,79 @@
+body {margin: 2% 4% 2%; background-color: var(--bg); color: var(--text); --text: #121212; --bg: #f9f9f9;}
+
+columns {
+  width: 100%; 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 3%;
+}
+
+* {font-family: sans-serif; line-height: 1.4;}
+a {color: var(--text);}
+
+p, blockquote {max-width: 70ch;}
+
+hr {border: none; height: 1px; background-color: #2e2c70; opacity: .2; margin: 25px 0px 25px 0px;}
+
+.right {text-align: right; max-width: 100%;}
+
+img {width: 100%;}
+
+div.logo {width: 55px; margin-left: auto;}
+
+.button {width: 88px;}
+
+.blink {
+    animation: 1.2s infinite blink;
+    display: inline;
+}
+
+@keyframes blink {
+    0%, 15% {
+        opacity: 0;
+    }
+    16%, 100% {
+        opacity: 1;
+    }
+}
+
+.avatar {width: 112px; height:112px; border: 1px solid; position: fixed; bottom: 6%; left: 4%; opacity: .5;}
+
+.hover-title {
+    display: inline;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.hover-image {
+    visibility: hidden;
+}
+
+body:not(.mobile) .hover-title:hover + .hover-image {
+    visibility: visible;
+    pointer-events: none;
+}
+
+.hover-image {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    pointer-events: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+	opacity: 0.2;
+	image-rendering: pixelated;
+}
+
+
+@media (max-width: 1000px) {
+columns {grid-template-columns: 1fr;}
+.right {text-align: left;}
+div.logo {margin-left: 0;}
+.avatar {display: none;}
+}
