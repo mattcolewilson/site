@@ -57,6 +57,7 @@ div.logo {width: 55px; margin-left: auto;}
 body{ 
 --text: silver;
 --bg: #121212;}
+div.poster {border: none;}
 }
 
 @media (max-width: 1200px) {
