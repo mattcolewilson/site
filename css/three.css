@@ -23,10 +23,14 @@ hr {border: none; height: 1px; background-color: var(--text); opacity: .2; margi
 
 .right {text-align: right; max-width: 100%;}
 
-img {width: 100%;}
+img {width: 100%; border-radius: 20px;}
 
-div.poster {
-  border: 20px solid black;
+.poster {
+  border: 20px solid black; border-radius: 0px; box-sizing: border-box;
+}
+
+.music {
+  border-radius: 0px;
 }
 
 div.logo {width: 55px; margin-left: auto;}
@@ -57,7 +61,7 @@ div.logo {width: 55px; margin-left: auto;}
 body{ 
 --text: silver;
 --bg: #121212;}
-div.poster {border: none;}
+.poster {border: none;}
 }
 
 @media (max-width: 1200px) {

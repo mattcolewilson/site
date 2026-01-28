@@ -16,7 +16,7 @@ hr {border: none; height: 1px; background-color: var(--text); opacity: .2; margi
 
 .right {text-align: right; max-width: 100%;}
 
-img {width: 100%;}
+img {width: 100%; border-radius: 20px;}
 
 div.logo {width: 55px; margin-left: auto;}
 
@@ -26,9 +26,10 @@ div.logo {width: 55px; margin-left: auto;}
   position: fixed;
   top: 20%;
   right: 4%;  
+  border-radius: 0px;
 }
 
-.button {width: 88px;}
+.button {width: 88px; border-radius: 0px;}
 
 .blink {
     animation: 1.2s infinite blink;
@@ -49,4 +50,12 @@ columns {grid-template-columns: 1fr;}
 .right {text-align: left;}
 div.logo {margin-left: 0;}
 .headshot {display: none;}
+}
+
+@media (prefers-color-scheme: dark) {
+body{ 
+--text: silver;
+--bg: #121212;}
+div.poster {border: none;}
+.headshot {background-color: silver; opacity: .1;}
 }
