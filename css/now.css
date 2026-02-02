@@ -1,5 +1,7 @@
 body {margin: 2% 4% 2%; background-color: var(--bg); color: var(--text); --text: #121212; --bg: #f9f9f9;}
 
+html{scroll-behavior: smooth;}
+
 columns {
   width: 100%; 
   display: grid;

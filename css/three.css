@@ -1,5 +1,7 @@
 body {margin: 2% 4% 2%; background-color: var(--bg); color: var(--text); --text: #121212; --bg: #f9f9f9;} 
 
+html{scroll-behavior: smooth;}
+
 columns {
   width: 100%; 
   display: grid;
@@ -47,6 +49,55 @@ div.logo {width: 55px; margin-left: auto;}
     animation: 1.2s infinite blink;
     display: inline;
 }
+
+.slider-wrapper {
+	position: relative;
+	max-width: 100%;
+}
+
+.slider {
+	display: flex;
+	overflow-x: hidden;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	border-radius: 20px;
+	-ms-overflow-style: none; 
+	scrollbar-width: none; 
+}
+
+.slider::-webkit-scrollbar {
+	display: none;
+}
+
+.slider img {
+	flex: 1 0 100%;
+	scroll-snap-align: start;
+	object-fit: cover;
+}
+
+.slider-nav {
+	display: flex;
+	column-gap: 1rem;
+	position: absolute;
+	bottom: 1.25rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+.slider-nav a {
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-color: black;
+	opacity: 0.6;
+	transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+	opacity: 1;
+}
+
 
 @keyframes blink {
     0%, 15% {
