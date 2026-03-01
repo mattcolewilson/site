@@ -49,6 +49,7 @@ div.logo {width: 55px; margin-left: auto;}
 
 @media (max-width: 1000px) {
 columns {grid-template-columns: 1fr;}
+h1, h2{margin-bottom:0;}
 .right {text-align: left;}
 div.logo {margin-left: 0;}
 .headshot {display: none;}
