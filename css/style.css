@@ -33,7 +33,7 @@ div.logo {width: 55px; margin-left: auto;}
 
 .button {width: 88px; border-radius: 0px;}
 
-.sig {width: 350px; border-radius: 0px;}
+.sig {max-width: 350px; border-radius: 0px;}
 
 .blink {
     animation: 1.2s infinite blink;
