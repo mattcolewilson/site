@@ -23,6 +23,8 @@ img {width: 100%;}
 
 div.logo {width: 55px; margin-left: auto;}
 
+.book {width: 80px; image-rendering: pixelated;}
+
 .button {width: 88px;}
 
 .blink {
