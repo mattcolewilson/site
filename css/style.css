@@ -31,6 +31,15 @@ div.logo {width: 55px; margin-left: auto;}
   border-radius: 0px;
 }
 
+.mii {
+  width: 55vh;
+  opacity: .3;
+  position: fixed;
+  top: 15%;
+  right: 4%;  
+  border-radius: 0px;
+}
+
 .button {width: 88px; border-radius: 0px;}
 
 .sig {max-width: 350px; border-radius: 0px;}
@@ -55,6 +64,7 @@ h1, h2{margin-bottom:0;}
 .right {text-align: left;}
 div.logo {margin-left: 0;}
 .headshot {display: none;}
+.mii {display: none;}
 }
 
 @media (prefers-color-scheme: dark) {
