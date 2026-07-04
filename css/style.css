@@ -32,11 +32,11 @@ div.logo {width: 55px; margin-left: auto;}
 }
 
 .mii {
-  width: 45vh;
+  width: 48vh;
   opacity: .3;
   position: fixed;
-  top: 15%;
-  right: 4%;  
+  top: 12%;
+  right: 3%;  
   border-radius: 0px;
 }
 
