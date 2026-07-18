@@ -9,6 +9,11 @@ columns {
   gap: 10px 3%;
 }
 
+@font-face { 
+	font-family: "terminak"; 
+	src: url("../fonts/terminak.woff2") format("woff2"), 
+}
+
 * {font-family: sans-serif; line-height: 1.4;}
 a {color: var(--text);}
 
