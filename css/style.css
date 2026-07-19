@@ -36,6 +36,8 @@ div.logo {width: 55px; margin-left: auto;}
   border-radius: 0px;
 }
 
+.drag {border-radius: 0px;}
+
 .mii {
   width: 48vh;
   opacity: .3;
@@ -69,6 +71,7 @@ h1, h2{margin-bottom:0;}
 .right {text-align: left;}
 div.logo {margin-left: 0;}
 .headshot {display: none;}
+.drag {display: none;}
 .mii {display: none;}
 }
 
