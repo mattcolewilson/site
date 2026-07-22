@@ -25,6 +25,12 @@ hr {border: none; height: 1px; background-color: var(--text); opacity: .2; margi
 
 img {width: 100%; border-radius: 20px;}
 
+video {
+	border-radius: 20px;
+	overflow: hidden;
+	width: 100%;
+}
+
 div.logo {width: 55px; margin-left: auto;}
 
 .headshot {
