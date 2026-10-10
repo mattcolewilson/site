@@ -94,5 +94,5 @@ body{
 --bg: #121212;}
 div.poster {border: none;}
 .headshot {background-color: silver; opacity: .3;}
-tr:hover {background-color: none;}
+tr:hover {background-color: DimGrey;}
 }
