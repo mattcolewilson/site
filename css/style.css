@@ -86,6 +86,7 @@ div.logo {margin-left: 0;}
 .headshot {display: none;}
 .drag {display: none;}
 .mii {display: none;}
+table {font-size: small;}
 }
 
 @media (prefers-color-scheme: dark) {
