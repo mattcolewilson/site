@@ -41,12 +41,7 @@ tr:hover {background-color: yellow;}
 div.logo {width: 55px; margin-left: auto;}
 
 .headshot {
-  width: 55vh;
-  opacity: .3;
-  position: fixed;
-  top: 20%;
-  right: 4%;  
-  border-radius: 0px;
+display: none; border-radius: 0px;
 }
 
 .drag {border-radius: 0px;}
@@ -83,7 +78,7 @@ columns {grid-template-columns: 1fr;}
 h1, h2{margin-bottom:0;}
 .right {text-align: left;}
 div.logo {margin-left: 0;}
-.headshot {display: none;}
+.headshot {display: block;}
 .drag {display: none;}
 .mii {display: none;}
 table {font-size: small;}
@@ -94,6 +89,5 @@ body{
 --text: silver;
 --bg: #121212;}
 div.poster {border: none;}
-.headshot {background-color: silver; opacity: .3;}
 tr:hover {background-color: DimGrey;}
 }
